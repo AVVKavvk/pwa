@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { registerSW } from "virtual:pwa-register";
+import PWATestApp from "./TestApp";
 
 function App() {
   useEffect(() => {
@@ -17,8 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>My PWA App</h1>
-      {/* Your app content */}
+      <PWATestApp />
     </div>
   );
 }
